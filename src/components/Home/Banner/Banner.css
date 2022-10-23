@@ -1,0 +1,158 @@
+/* .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/showcase/hero\ \(1\).jpg');
+    background-image: url('../../../assets/images/marketing-bg6.png'), linear-gradient(130deg, #8624E1 25%, #3607A6 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 120px 0;
+} */
+
+/* ---------------------- Input --------------------- */
+/* 
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=reset],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+    width: 90%;
+    margin-bottom: 14px;
+    display: block;
+    color: black;
+    padding: .75em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #fff;
+    font-size: var(--fs-four);
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    outline: none;
+    color: black;
+} */
+
+/* 
+input[type=email]:focus-visible,
+input[type=number]:focus-visible,
+input[type=password]:focus-visible,
+input[type=reset]:focus-visible,
+input[type=search]:focus-visible,
+input[type=tel]:focus-visible,
+input[type=text]:focus-visible,
+input[type=url]:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+input[type=email]::placeholder,
+input[type=number]::placeholder,
+input[type=password]::placeholder,
+input[type=reset]::placeholder,
+input[type=search]::placeholder,
+input[type=tel]::placeholder,
+input[type=text]::placeholder,
+input[type=url]::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: rgb(102, 102, 102);
+}
+
+textarea {
+    resize: none;
+    cursor: auto;
+}
+
+#hero-textarea::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+#hero-textarea::-webkit-scrollbar-button:start:decrement,
+#hero-textarea::-webkit-scrollbar-button:end:increment {
+    height: 10px;
+    background-color: transparent;
+}
+
+#hero-textarea::-webkit-scrollbar-track-piece {
+    background-color: #eeeeee;
+    -webkit-border-radius: 16px;
+}
+
+#hero-textarea::-webkit-scrollbar-thumb:vertical {
+    height: 10px;
+    background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+    border: 1px solid #eee;
+    -webkit-border-radius: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .hero-wrapper {
+        max-width: 576px;
+        padding: var(--padding-six);
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-wrapper>*+* {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    .hero-flex-box {
+        width: 96%;
+    }
+
+    .hero-contact-from {
+        margin: 0 auto;
+        width: 96%;
+        padding: 20px;
+    }
+
+    .hero-contact-from h5 {
+        margin: 16px auto;
+    }
+
+    .hero-contact-from img {
+        margin-bottom: 14px;
+    }
+
+    .input-btn-icon {
+        width: 40px;
+        height: 40px;
+        padding: 11px;
+    }
+
+    .hero-slogan {
+        font-size: var(--fs-one);
+    }
+
+    input[type=email],
+    input[type=number],
+    input[type=password],
+    input[type=reset],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=url],
+    textarea {
+        width: 100%;
+    }
+
+    input[type=email],
+    input[type=number],
+    input[type=password],
+    input[type=reset],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=url] {
+        height: 48px;
+    }
+} */

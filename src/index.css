@@ -1,5 +1,86 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+:root {
+  --bg-primary: rgb(255, 255, 255);
+  --bg-secondary: ;
+  --bg-accent: ;
+
+  /* #1f1f1f; */
+  /* color: #3c4043; */
+  --color-primary: #fff;
+  --color-secondary: #202124;
+  --color-accent: #1a73e8;
+
+  /* search result page color */
+  --search-primary: #202124;
+  --search-secondary: #1a0dab;
+  --search-accent: #681da8;
+
+  /* divi theme color */
+  --text-normal: #666;
+  --text-bold: #333;
+  --border-color: rgb(125, 57, 252);
+
+
+  /* border radious */
+  --border-radious-rounded: 50%;
+  --border-radious-six: 150px;
+  --border-radious-five: 32px;
+  --border-radious-four: 18px;
+  --border-radious-three: 15px;
+  --border-radious-two: 10px;
+  --border-radious-one: 8px;
+
+  /* margin */
+  --margin-auto: auto;
+  --margin-six: 150px;
+  --margin-five: 21px;
+  --margin-four: 18px;
+  --margin-three: 15px;
+  --margin-two: 10px;
+  --margin-one: 8px;
+
+  /* padding */
+  --padding-wrapper: 2rem 5rem;
+  --padding-one: 5rem;
+  --padding-two: 32px;
+  --padding-three: 24px;
+  --padding-four: 20px;
+  --padding-five: 16px;
+  --padding-six: 14px;
+
+  /* section-wrapper */
+  --max-width: 1440px;
+
+  /* font size */
+  --fs-slogan: 7rem;
+  --fs-one: 60px;
+  --fs-two: 21px;
+  --fs-three: 17px;
+  --fs-four: 12px;
+  --fs-five: 14px;
+  --fs-six: 12px;
+
+  /* font weight */
+  --fw-seven: 700;
+  --fw-six: 600;
+  --fw-five: 500;
+  --fw-four: 400;
+}
+
+*,
+::before,
+::after {
+  border: 0;
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +92,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mx-auto {
+  margin-left: var(--margin-auto);
+  margin-right: var(--margin-auto);
+}
+
+
+/* box-shadow: 0px 2px 70px 0px rgb(110 130 208 / 18%); */
+
+/* customer review section bg */
+/* background-image: linear-gradient(180deg,#ffffff 0%,#F2F2FA 50%)!important; */
+/* background-color: #F2F2FA! */
+
+/* review left and right bg */
+/* মাঝের ডিভে ব্যাকগ্রাউন্ড কালার পিউর হুয়াইট */
+/* background-color: rgba(255,255,255,0.45); */
+/* box-shadow: 0px 2px 50px 0px rgb(110 130 208 / 18%); */
