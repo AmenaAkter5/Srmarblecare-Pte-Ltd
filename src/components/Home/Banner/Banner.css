@@ -186,7 +186,7 @@
 }
 
 #hero-textarea::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
     height: 10px;
 }
 
@@ -203,8 +203,7 @@
 
 #hero-textarea::-webkit-scrollbar-thumb:vertical {
     height: 10px;
-    /* background: linear-gradient(335.64deg, #46237a -19.22%, #7546bd 118.87%); */
-    background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+    background: linear-gradient(335.64deg, #46237a -19.22%, #7546bd 118.87%);
     border: 1px solid #eee;
     -webkit-border-radius: 16px;
 }
