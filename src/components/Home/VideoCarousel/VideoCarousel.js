@@ -42,32 +42,32 @@ const VideoCarousel = () => {
     //         video: "https://www.youtube.com/embed/ax8Xql0VmX8?autoplay=1&loop=1&color=white&modestbranding=1&playsinline=1&rel=0&enablejsapi=1&playlist=ax8Xql0VmX8"
     //     }
     // ]
-    const videos = [
-        {
-            _id: 1,
-            video: vido
-        },
-        {
-            _id: 2,
-            video: vido
-        },
-        {
-            _id: 3,
-            video: vido
-        },
-        {
-            _id: 4,
-            video: vido
-        },
-        {
-            _id: 5,
-            video: vido
-        },
-        {
-            _id: 6,
-            video: vido
-        }
-    ]
+    // const videos = [
+    //     {
+    //         _id: 1,
+    //         video: vido
+    //     },
+    //     {
+    //         _id: 2,
+    //         video: vido
+    //     },
+    //     {
+    //         _id: 3,
+    //         video: vido
+    //     },
+    //     {
+    //         _id: 4,
+    //         video: vido
+    //     },
+    //     {
+    //         _id: 5,
+    //         video: vido
+    //     },
+    //     {
+    //         _id: 6,
+    //         video: vido
+    //     }
+    // ]
 
     return (
 
