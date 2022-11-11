@@ -1,0 +1,156 @@
+.footer-wrapper {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    justify-content: space-between;
+    padding: 70px 112px 10px 112px;
+}
+
+.footer-container {
+    margin: 0px auto;
+    color: #333;
+}
+
+.footer-container h2 {
+    font-size: 32px;
+}
+
+.footer-container p {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    font-size: 1.2rem;
+}
+
+.footer-app-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.play-store-img,
+.app-store-img {
+    width: 98%;
+}
+
+.app-store-img {
+    padding-left: 1rem;
+}
+
+.footer-text {
+    padding-bottom: 6px;
+}
+
+.footer-text:first-child {
+    padding-bottom: .8rem;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-text a:hover {
+    color: #29613d;
+}
+
+.footer-span {
+    color: #29613d;
+}
+
+.company-others {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.social-icon-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #2d2c39;
+    font-size: 36px;
+}
+
+.social-icon:hover {
+    color: #29613d;
+}
+
+.footer-copy-right-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .footer-wrapper {
+        max-width: 1440px px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        justify-content: space-between;
+        padding: 70px 4rem 10px 4rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-wrapper {
+        padding: 50px 30px 5px 30px;
+    }
+
+    .company-others {
+        margin-top: 10px;
+    }
+
+    .social-media {
+        grid-column-end: span 2;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .social-icon-container {
+        justify-content: center;
+    }
+
+    .footer-others {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        padding: 50px 16px 5px 16px;
+
+    }
+
+    .footer-app-container {
+        justify-content: center;
+    }
+
+    .company-others {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px 0px 10px;
+    }
+
+    .footer-container {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .footer-others {
+        text-align: right;
+    }
+}

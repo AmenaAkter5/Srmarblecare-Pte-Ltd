@@ -1,0 +1,31 @@
+.title-text {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feature-box {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1.6fr 1fr;
+    gap: 30px;
+    align-items: center;
+    /* grid-gap: 0; */
+}
+
+/* .feature {
+    display: flex;
+    align-items: stretch;
+} */
+
+.man-img {
+    width: 450px;
+    height: 600px;
+}
